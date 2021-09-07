@@ -33,9 +33,9 @@ module.exports = {
         ],
 
     },
-    css: ['~/assets/css/style.css'],
+    css: ['~/assets/css/style.css', '~/assets/fonts/css/font-awesome.css'],
     /*
-     ** Customize the progress bar color
+     ** Customize the progress bar color 
      */
     loading: {
         color: '#3B8070'

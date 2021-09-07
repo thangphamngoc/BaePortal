@@ -61,14 +61,6 @@
     }
 }
 
-// GENERIC STUFF TO MAKE IT POP 💩
-body {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    font-family: "San Francisco Display Semibold";
-}
-
 .swiper-slide {
     &:before {
         content: "";
