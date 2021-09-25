@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap);
+:root {
+    /* Color */
+    --lightest: #fffdf7;
+    --brown: #a88c7b;
+    --brown-darker: #9a7c6a;
+    /* Width */
+    --lg: 80rem;
+    --md: 50rem;
+    --sm: 30rem;
+}
+
+
+/*
+  Base
+*/
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--lightest);
+    background: var(--brown);
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: calc(1.2rem + 3vw);
+}
+
+h2 {
+    font-size: calc(1.2rem + 2vw);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--lightest);
+}
+
+input,
+textarea {
+    font-family: inherit;
+    color: inherit;
+    padding: .2rem .5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    margin-top: 2rem;
+    align-self: center;
+}
+
+
+/*
+  Utils, helpers
+*/
+
+.u-list-reset {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+
+/*
+  Logo
+*/
+
+.logo {
+    font-size: 2rem;
+    justify-self: end;
+    grid-area: logo;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+/*
+  Button
+*/
+
+.btn {
+    padding: 1rem 2rem;
+    border: 1px solid var(--lightest);
+    transition: all .2s;
+}
+
+.btn:hover {
+    background-color: var(--lightest);
+    color: black;
+}
